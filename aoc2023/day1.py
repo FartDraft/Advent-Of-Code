@@ -33,7 +33,7 @@ with open("day1b.txt") as f:
                     letters[first_letter(line).group()]
                     + letters[last_letter(line).group(1)]
                 )
-                for line in f.read().splitlines()
+                for line in f.readlines()
             ]
         )
     )
